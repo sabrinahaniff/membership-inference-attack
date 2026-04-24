@@ -31,7 +31,7 @@ def compare_all_defenses(X_train, y_train, X_test, y_test):
     from target_model import train_target_model
     
     print("=" * 55)
-    print("MEMBERSHIP INFERENCE — FULL DEFENSE COMPARISON")
+    print("MEMBERSHIP INFERENCE WITH FULL DEFENSE COMPARISON")
     print("=" * 55)
     
     results = {}
@@ -55,7 +55,7 @@ def compare_all_defenses(X_train, y_train, X_test, y_test):
     # dp with different epsilon values
     for epsilon in [0.1, 0.5, 1.0, 5.0]:
         label = f"DP (epsilon={epsilon})"
-        print(f"\n[3] Differential Privacy — epsilon={epsilon}")
+        print(f"\n[3] Differential Privacy - epsilon={epsilon}")
         model = train_dp_model(X_train, y_train, epsilon=epsilon)
         r = run_membership_inference_attack(model, X_train, y_train, X_test, y_test)
         results[label] = r
