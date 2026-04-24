@@ -12,6 +12,9 @@ I thought this was kind of scary when I first learned about it so I built a simu
 
 The short version: overfitting is really bad for privacy, and differential privacy actually works.
 
+<img width="1357" height="575" alt="image" src="https://github.com/user-attachments/assets/2ebe51f0-d8c8-4602-9727-96a872fdcb6c" />
+
+
 | Defense | Attack AUC | Loss Gap | Risk |
 |---|---|---|---|
 | No defense at all | 0.709 | 1.178 | HIGH |
