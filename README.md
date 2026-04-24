@@ -12,7 +12,7 @@ That behavioral difference is the attacker's signal.
 
 ## Key Terms
 
-**Overfitting**: When a model memorizes the training data instead of learning general patterns. Like a student who memorizes practice exam answers word for word instead of understanding the concepts. The model performs great on training data but poorly on new data it has never seen.
+**Overfitting**: When a model memorizes the training data instead of learning general patterns. 
 
 **Loss**: A measure of how wrong the model is on a prediction. Low loss means the model is confident and correct. High loss means the model is uncertain or wrong. An overfit model has very low loss on training data and high loss on new data
 
