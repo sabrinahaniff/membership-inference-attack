@@ -44,7 +44,7 @@ perfect attack. Anything above 0.6 is concerning for a real system.
 Helps privacy but doesn't fully solve it.
 
 **Differential privacy**: adds calibrated noise during training so the model
-can't memorize individual records. Epsilon controls how much noise — smaller
+can't memorize individual records. Epsilon controls how much noise; smaller
 epsilon = more noise = stronger privacy but less accuracy.
 
 ## How to run it
