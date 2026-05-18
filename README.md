@@ -77,4 +77,3 @@ exploring.
 - Actually measure how much accuracy you lose at each epsilon value
 
 
-
