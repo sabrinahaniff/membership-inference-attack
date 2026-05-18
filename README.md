@@ -75,3 +75,6 @@ exploring.
 - Implement proper DP-SGD with gradient clipping instead of input noise
 - Test on image data instead of tabular data
 - Actually measure how much accuracy you lose at each epsilon value
+
+
+
